@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Background e formato della pagina*/
+
+body{
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('background.jpg');
+    background-size: cover;
+    color: white;
+}
+
+.container{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    width: 1200px;
+}
+
+.logo{
+    width: 250px;
+}
+
+header h1 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color: rgb(89, 207, 16);
+}
+
+.green-bar {
+    background-color: #32CD32;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.green-bar input[type="button"] {
+   background-color: white;
+   border: none;
+   border-radius: 5px;
+   margin: 0px 10px;
+   padding: 10px 20px;
+   font-size: 16px;
+   color: black;
+   cursor: pointer;
+   transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+input[type="button"]:hover {
+    background-color: grey;
+}
+
+.container-2{
+    text-align: left;
+}
+
+
+/* Scooter list stile */
+.scooter-list {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.scooter-list h2 {
+    font-size: 20px;
+}
+
+.scooter-list p {
+    margin: 5px 0;
+}
+
+/* Status monopattini*/
+.status {
+    height: 5px;
+    margin-top: 5px;
+}
+
+.status.yellow {
+    background-color: yellow;
+    justify-content: left;
+    padding: 10px;
+    height: 10px;
+    width: 35%;
+    margin: 10px;
+    border-radius: 5px;
+
+}
+
+.status.green {
+    background-color: green;
+    justify-content: left;
+    padding: 10px;
+    height: 10px;
+    width: 50%;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.status.red {
+    background-color: red;
+    justify-content: left;
+    padding: 10px;
+    height: 10px;
+    width: 15%;
+    margin: 10px;
+    border-radius: 5px;
+}
